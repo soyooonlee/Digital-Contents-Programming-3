@@ -1,0 +1,58 @@
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0px auto 8px;
+}
+
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.container ul.gnb {
+    float: left;
+    padding: 8px 0px;
+    background-color: green;
+}
+.container ul.gnb li {
+    list-style-type: none;
+    float: left;
+    padding-left: 16px;
+}
+.container ul.gnb li :nth-of-type(1) {
+    padding-left: 0px;
+}
+
+.container ul.rank {
+    float: right;
+    padding: 8px 0px;
+    background-color: yellow;
+}
+.container ul.rank li {
+    list-style-type: none;
+}
+
+ .container .left {
+    float: left;
+    width: 740px;
+    height: 428px;
+    background-color: red;
+}
+.container .right {
+    float: right;
+    width: 332px;
+    height: 428px;
+    background-color: blue;
+}
+
+.container .footer {
+    height: 80px;
+    background-color: yellow;
+
+}
+

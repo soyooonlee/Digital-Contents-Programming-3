@@ -1,0 +1,35 @@
+h1 {
+    font-size: 30px;
+}
+
+section {
+    width: 250px;
+    height: 150px;
+    background-color: #777
+}
+article {
+    margin-top: -30px;
+}
+
+label:nth-of-type(1) {
+    padding: 10px;
+}
+label:nth-of-type(2) {
+    margin-left: 4px;
+}
+
+#input1 {
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+#input2 {
+    margin-top: 3px;
+    width: 170px;
+    height: 20px;
+    margin-left: 73px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-weight: bold;
+}
